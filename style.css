@@ -1,17 +1,24 @@
 Body {
     font-family: Arial, Helvetica Neue, Helvetica, san-serif;
-    color: #777;
+    background: #777;
     width: 960px;
     font-size: 14px;
     margin: 0 auto;
 }
-Header, Nav, Section, Aside, Footer {
+Header, Nav, .section, Aside, Footer {
     background: #ebebeb;
     padding: 20px;
     text-align: center;
+    color: #777;
+    font-size: 14px;
+}
+Header {
+    margin-top: 10px;
+    padding: 25px;  
 }
 Nav {
     margin-top: 10px;
+    padding: 25px;
 }
 Aside {
     background: #ebebeb;
@@ -19,24 +26,43 @@ Aside {
     width: 40%;
     float: left;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    height: 225px;
 }
 Article {
     color: #ebebeb;
     background: #777;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 5px;
 }
-h1, p {
+h1, {
     color: #777;
     background: #ebebeb;
+    padding: 10px;
 }
+.para {
+    color: #777;
+    background: #ebebeb;
+    padding: 10px;
+    font-size: 16px;
+}
+#article {
+    color: #ebebeb:
+    background: #777;
 }
 .section {
-    margin-top: 10px;
+    margin-top: 20px;
     float: left;
-    width: 60%;
+    width: 50%;
+    margin-bottom: 20px;
+    height: 225px;
 }
 Footer {
     clear: both;
     overflow: auto;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    padding: 15px;
 }
