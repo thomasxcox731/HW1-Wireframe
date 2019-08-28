@@ -2,19 +2,41 @@ Body {
     font-family: Arial, Helvetica Neue, Helvetica, san-serif;
     color: #777;
     width: 960px;
-    font-size: 18px;
+    font-size: 14px;
+    margin: 0 auto;
 }
-Header, Nav, Section, Aside, and Footer {
+Header, Nav, Section, Aside, Footer {
     background: #ebebeb;
+    padding: 20px;
+    text-align: center;
+}
+Nav {
+    margin-top: 10px;
 }
 Aside {
+    background: #ebebeb;
+    color: #777;
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+Article {
     color: #ebebeb;
     background: #777;
+    padding: 20px;
 }
-h1 and p {
+h1, p {
     color: #777;
     background: #ebebeb;
 }
-Section {
-    width: 495px;
+}
+.section {
+    margin-top: 10px;
+    float: left;
+    width: 60%;
+}
+Footer {
+    clear: both;
+    overflow: auto;
+    margin-top: 10px;
 }
